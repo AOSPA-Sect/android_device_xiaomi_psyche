@@ -215,6 +215,9 @@ PRODUCT_PACKAGES += \
     init.target.rc \
     ueventd.xiaomi.rc
 
+# ION
+$(call soong_config_set_bool,libion,legacy_impl,true)
+
 # Keymaster
 PRODUCT_VENDOR_PROPERTIES += \
     ro.crypto.allow_encrypt_override=true \
