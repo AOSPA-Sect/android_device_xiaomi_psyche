@@ -130,7 +130,6 @@ vendor/lib/libcapiv2svacnn.so|b00484a75db67ea914a507eb48b63404dfbc7654
 vendor/lib/libcapiv2svarnn.so|97f6bd6b25479fbf0f4f7cb06d9f1a462266f22a
 vendor/lib/libcapiv2vop.so|1cceaefcc1ca55de5bc932a846091e6702c5d508
 vendor/lib/libdrc.so|b066f176f119847059c5aa148f73e1b042fbeab3
-vendor/lib/libdsd2pcm.so|c5ab1afd7a5a23bf83d80b5ac74247c3dd2085af
 vendor/lib/libgcs-calwrapper.so|39f85bb7e1b371c951d085086f5fdb20f074b21d
 vendor/lib/libgcs-ipc.so|c0d991ca572929c65f3382a34c72bb3c062fcc0b
 vendor/lib/libgcs-osal.so|9f023437197fd01fdadd61844ba0bff88dc8d6a4
@@ -139,16 +138,6 @@ vendor/lib/libhdmipassthru.so|718401f9872acaafbabe3fb1f44264c6c5da3c53
 vendor/lib/liblistensoundmodel2.so|5f5c4e2d6b7e4184f863e7e433511b7af781fd0c
 vendor/lib/libmmhardware.so|a4f75309695e417bbc2fc5df819fee4d99937f2f
 vendor/lib/libmulawdec.so|89ebb1d9e77911f1abe37405016839d8436a9825
-vendor/lib/libOmxAacDec.so|88165e980b93129c1c5ce8b760244a1e143a842f
-vendor/lib/libOmxAlacDec.so|b7fccf4983642f96978ac5a77fd25cb4fb3a1aae
-vendor/lib/libOmxAmrDec.so|0d3242d7b26d5b562808a13f7e01dd4225a21978
-vendor/lib/libOmxAmrwbplusDec.so|a2f70bba9b5d85d5d0637618607782779af3af17
-vendor/lib/libOmxApeDec.so|1ab91e6dae5e7a60e20f1e81582cbc4e4163e89a
-vendor/lib/libOmxDsdDec.so|f74936badeb8303b2bb17475b9cd157b1c81131c
-vendor/lib/libOmxEvrcDec.so|827e34f3068a733c39772d46f3757e42e21975c9
-vendor/lib/libOmxG711Dec.so|827afea15d98e5dc3a3b6baf9a815c170e1f9bda
-vendor/lib/libOmxQcelp13Dec.so|44698fe731f52e64f4646c6262c9b4adba3d807b
-vendor/lib/libOmxWmaDec.so|f0d9d56147bb84972ab651424ad464ee95b3d5cf
 vendor/lib/libqtigef.so|3fba1e7a22a0b75be6bace643aaa8ead110c1233
 vendor/lib/libresampler.so|8edd3e46d46ad53469487f172219aec3a5a840b5
 vendor/lib/libsmwrapper.so|71a8166b84c4c9a06f1308370d23e68a1b243e0e
@@ -1300,7 +1289,6 @@ vendor/firmware/fingerprint_record_rtp.bin|bd5dfb97540e19d29bdca90b6df3b4bbd0adc
 vendor/bin/vppservice
 vendor/etc/configstore/vpp.configstore.xml
 vendor/etc/init/vppservice.rc
-vendor/lib/libOmxVpp.so;DISABLE_CHECKELF
 vendor/lib/libvppclient.so
 vendor/lib/libvpphcp.so
 vendor/lib/libvpphvx.so

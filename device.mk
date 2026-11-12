@@ -240,6 +240,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     IFAAService
 
+TARGET_SUPPORTS_OMX_SERVICE := false
+
+PRODUCT_VENDOR_PROPERTIES += \
+    vendor.media.omx=0
+
 # Namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
