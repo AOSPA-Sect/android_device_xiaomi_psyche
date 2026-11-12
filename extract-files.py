@@ -21,6 +21,8 @@ from extract_utils.fixups_lib import (
 blob_fixups: blob_fixups_user_type = {
     'vendor/lib64/camera/components/com.mi.node.watermark.so': blob_fixup()
         .add_needed('libpiex_shim.so')
+    'vendor/etc/seccomp_policy/atfwd@2.0.policy': blob_fixup()
+        .add_line_if_missing('gettid: 1'),
 }  # fmt: skip
 
 
