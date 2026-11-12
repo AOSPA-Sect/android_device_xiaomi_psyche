@@ -332,7 +332,8 @@ PRODUCT_VENDOR_PROPERTIES += \
     ro.incremental.enable=yes
 
 PRODUCT_PRODUCT_PROPERTIES += \
-    persist.sys.fuse.passthrough.enable=true
+    persist.sys.fuse.passthrough.enable=true \
+    ro.bpf.kver_override=5.10.239
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
 
