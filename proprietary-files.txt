@@ -1204,9 +1204,6 @@ vendor/bin/hw/vendor.xiaomi.hardware.touchfeature@1.0-service|dc27181a449029c29e
 vendor/etc/init/vendor.xiaomi.hardware.touchfeature@1.0-service.rc|3def34d082c4b5e1e31ce769473bcb46cf26fb8d
 vendor/lib64/hw/vendor.xiaomi.hardware.touchfeature@1.0-impl.so|9af649faa7b430330290273a9883fdae309addc7
 
-# UBWC
-vendor/lib/libstreamparser.so
-
 # Vibrator - MIUI
 vendor/firmware/aw8697_haptic.bin|48d85d3d26bbf6d10e9ca59b0bcf0c0d70ba25a8
 vendor/firmware/aw8697_rtp_1.bin|9f32c9bf0776a566d3254129a028dae9bed76b81
