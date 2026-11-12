@@ -290,6 +290,10 @@ TARGET_COMMON_QTI_COMPONENTS := \
     keymaster \
     qseecomd
 
+# Memtrack
+PRODUCT_PACKAGES += \
+    vendor.qti.hardware.memtrack-service
+
 # Sensors
 PRODUCT_VENDOR_PROPERTIES += \
     persist.vendor.sensors.allow_non_default_discovery=true \
